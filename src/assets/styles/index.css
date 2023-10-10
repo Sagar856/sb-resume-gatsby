@@ -412,7 +412,7 @@ h5 {
   }
 
   .container {
-    height: 65em;
+    height: 69em;
   }
 
   .right-side {
@@ -423,7 +423,7 @@ h5 {
     margin: 0 0.5% 0 2%;
     width: 33%;
     border-radius: 11px 0px 0 10px;
-    height: 65em;
+    height: 69em;
   }
 
   .left-body {
@@ -497,6 +497,12 @@ h5 {
     gap: 0.6rem;
     padding: 0 3%;
     height: 430px;
+  }
+
+
+  .certificate-data {
+    overflow: scroll;
+    height: 400px;
   }
 
   .tooltip .tooltiptext-exp,

@@ -81,7 +81,8 @@ const Layout = ({ children }) => {
                   <li>
                     <Link
                       className="contact-email"
-                      to="www.linkedin.com/in/sagar-bodkhe-sb856"
+                      target="_blank"
+                      to="https://www.linkedin.com/in/sagar-bodkhe-sb856"
                     >
                       <AiFillLinkedin className="contact-me-icons" />
                       Visit linkedin Profile
