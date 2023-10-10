@@ -72,7 +72,7 @@ const experience = () => {
                     className="my-work-links"
                     target="_blank"
                   >
-                    <IoArrowRedoCircle className="my-work-icons" /> Omnifood HTML CSS Desktop
+                    <IoArrowRedoCircle className="my-work-icons" /> Omnifood HTML-CSS Desktop
                   </Link>
                 </li>
                 <li>
