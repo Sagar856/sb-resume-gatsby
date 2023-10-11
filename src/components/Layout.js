@@ -7,21 +7,21 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import { FaRegHandPointDown } from "@react-icons/all-files/fa/FaRegHandPointDown";
 
-//Hide tooltip after three seconds
-if (typeof window !== "undefined") {
-  setTimeout(function () {
-    document.getElementById("tooltiptext-profile").style.backgroundColor =
-      "#6e9b9b";
-  }, 100);
-  setTimeout(function () {
-    document.getElementById("tooltiptext-profile").style.backgroundColor =
-      "rgba(0, 0, 0, 0.429)";
-  }, 3000);
-  setTimeout(function () {
-    document.getElementById("tooltiptext-profile").style.backgroundColor =
-      "#6e9b9b";
-  }, 7000);
-}
+// //Hide tooltip after three seconds
+// if (typeof window !== "undefined") {
+//   setTimeout(function () {
+//     document.getElementById("tooltiptext-profile").style.backgroundColor =
+//       "#6e9b9b";
+//   }, 100);
+//   setTimeout(function () {
+//     document.getElementById("tooltiptext-profile").style.backgroundColor =
+//       "rgba(0, 0, 0, 0.429)";
+//   }, 3000);
+//   setTimeout(function () {
+//     document.getElementById("tooltiptext-profile").style.backgroundColor =
+//       "#6e9b9b";
+//   }, 7000);
+// }
 
 const Layout = ({ children }) => {
   return (
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       <div className="container">
         <section className="left-side">
           <div className="left-header">
-            <Link to="/gallery">
+            <Link to="/gallery" className="link-style-depricate photo-walkthrough">
               <StaticImage
                 src="../assets/images/IMG_5239-01.jpeg"
                 alt="home page img"
@@ -40,15 +40,15 @@ const Layout = ({ children }) => {
             </Link>
             <div className="left-body">
               <div className="tooltip">
-                <span id="tooltiptext-profile" className="tooltiptext-profile">
+                {/* <span id="tooltiptext-profile" className="tooltiptext-profile">
                   <span className="tooltip-icons">
                     <FaRegHandPointDown />
                   </span>
                   Click
-                </span>
+                </span> */}
               </div>
               <Link to="/profile" className="link-style-depricate">
-                <h3>Profile</h3>
+                <h3 className="profile-heading">Profile</h3>
                 <p>
                   Having an experience in <b>Cognizant technology solutions</b>{" "}
                   as

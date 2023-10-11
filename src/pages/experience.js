@@ -5,10 +5,12 @@ import { IoArrowRedoCircle } from "@react-icons/all-files/io5/IoArrowRedoCircle"
 import { IoArrowUndoOutline } from "@react-icons/all-files/io5/IoArrowUndoOutline";
 import { Link } from "gatsby";
 import Seo from "../components/Seo";
+import ExperienceTour from "../components/Tours/ExperienceTour";
 
 const experience = () => {
   return (
     <Layout>
+      <ExperienceTour />
       <Seo title="Experience" />
       <div className="right-body">
         <Link to="/" className="back-button">
@@ -50,7 +52,7 @@ const experience = () => {
                 <li>
                   <Link
                     to="https://sb-simply-recipes-grind.netlify.app"
-                    className="my-work-links"
+                    className="my-work-links my-work-walkthrough"
                     target="_blank"
                   >
                     <IoArrowRedoCircle className="my-work-icons" /> Just Recipes

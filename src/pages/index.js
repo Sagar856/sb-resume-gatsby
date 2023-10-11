@@ -8,32 +8,34 @@ import { FaRegHandPointLeft } from "@react-icons/all-files/fa/FaRegHandPointLeft
 import Layout from "../components/Layout";
 import { Link } from "gatsby";
 import Seo from "../components/Seo";
+import Tour from "../components/Tours/Tour";
 
-//Hide tooltip after three seconds
-if (typeof window !== "undefined") {
-  let initialTimeout = setTimeout(function () {
-    document.getElementById("tooltiptext-exp").style.backgroundColor = "white";
-    document.getElementById("tooltiptext").style.backgroundColor = "white";
-    document.getElementById("tooltiptext-skill").style.backgroundColor =
-      "white";
-  }, 100);
+// //Hide tooltip after three seconds
+// if (typeof window !== "undefined") {
+//   let initialTimeout = setTimeout(function () {
+//     document.getElementById("tooltiptext-exp").style.backgroundColor = "white";
+//     document.getElementById("tooltiptext").style.backgroundColor = "white";
+//     document.getElementById("tooltiptext-skill").style.backgroundColor =
+//       "white";
+//   }, 100);
 
-  let showTimeout = setTimeout(function () {
-    document.getElementById("tooltiptext-exp").style.backgroundColor =
-      "rgba(0, 0, 0, 0.429)";
-    document.getElementById("tooltiptext").style.backgroundColor =
-      "rgba(0, 0, 0, 0.429)";
-    document.getElementById("tooltiptext-skill").style.backgroundColor =
-      "rgba(0, 0, 0, 0.429)";
-  }, 3000);
+//   let showTimeout = setTimeout(function () {
+//     document.getElementById("tooltiptext-exp").style.backgroundColor =
+//       "rgba(0, 0, 0, 0.429)";
+//     document.getElementById("tooltiptext").style.backgroundColor =
+//       "rgba(0, 0, 0, 0.429)";
+//     document.getElementById("tooltiptext-skill").style.backgroundColor =
+//       "rgba(0, 0, 0, 0.429)";
+//   }, 3000);
 
-  let hidingTimeout = setTimeout(function () {
-    document.getElementById("tooltiptext-exp").style.backgroundColor = "white";
-    document.getElementById("tooltiptext").style.backgroundColor = "white";
-    document.getElementById("tooltiptext-skill").style.backgroundColor =
-      "white";
-  }, 7000);
-}
+//   let hidingTimeout = setTimeout(function () {
+//     document.getElementById("tooltiptext-exp").style.backgroundColor = "white";
+//     document.getElementById("tooltiptext").style.backgroundColor = "white";
+//     document.getElementById("tooltiptext-skill").style.backgroundColor =
+//       "white";
+//   }, 7000);
+// }
+
 
 const index = () => {
   return (
@@ -41,17 +43,17 @@ const index = () => {
       <Seo title="Sagar Resume" />
       <div className="right-body">
         <Link to="/experience" className="link-style-depricate tooltip">
-          {/* onClick={handleClearTimeout} */}
-          <h2>
+          <Tour />
+          <h2 className="experience-heading">
             <CgWorkAlt className="icons" />
             Experience
           </h2>
-          <span id="tooltiptext-exp" className="tooltiptext-exp">
+          {/* <span id="tooltiptext-exp" className="tooltiptext-exp">
             <span className="tooltip-icons">
               <FaRegHandPointLeft />
             </span>
-            Click here
-          </span>
+            Click
+          </span> */}
           <div className="description-section">
             <p>
               Working as a <b>ReactJs Developer</b> in
@@ -65,16 +67,16 @@ const index = () => {
         </Link>
         <Link to="/education" className="link-style-depricate tooltip">
           <div>
-            <h2>
+            <h2 className="education-heading">
               <IoSchoolOutline className="icons" />
               Education
             </h2>
-            <span id="tooltiptext" className="tooltiptext">
+            {/* <span id="tooltiptext" className="tooltiptext">
               <span className="tooltip-icons">
                 <FaRegHandPointLeft />
               </span>
               Click on each tab for more info
-            </span>
+            </span> */}
             <div className="description-section">
               <h3>Bachelor of Engineering&ensp;(2017-21)</h3>
               <h3>Mechanical Engineer</h3>
@@ -87,16 +89,16 @@ const index = () => {
         </Link>
         <Link to="/skills" className="link-style-depricate tooltip">
           <div>
-            <h2>
+            <h2 className="skills-heading">
               <GiGears className="icons" />
               Skills
             </h2>
-            <span id="tooltiptext-skill" className="tooltiptext-skill">
+            {/* <span id="tooltiptext-skill" className="tooltiptext-skill">
               <span className="tooltip-icons">
                 <FaRegHandPointLeft />
               </span>
               Click on each tab for more info
-            </span>
+            </span> */}
             <div className="description-section">
               <div className="skill-container">
                 <div className="current-skill">

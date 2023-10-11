@@ -10,10 +10,12 @@ import { ImHtmlFive2 } from "@react-icons/all-files/im/ImHtmlFive2";
 import { ImCss3 } from "@react-icons/all-files/im/ImCss3";
 import { SiBootstrap } from "@react-icons/all-files/si/SiBootstrap";
 import Seo from "../components/Seo";
+import SkillsTour from "../components/Tours/SkillsTour";
 
 const skills = () => {
   return (
     <Layout>
+      <SkillsTour />
         <Seo title="Skills" />
       <div className="right-body">
         <Link to="/" className="back-button">
