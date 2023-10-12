@@ -7,34 +7,9 @@ body {
   letter-spacing: 0.07rem;
 }
 
-.back-button:hover {
-  background-color: #f5e9e4;
-  color: #d1805b;
-  transition: all 0.6s;
-}
-
-.right-body h2:hover,
-.left-body h3:hover {
-  transition: all 0.5s;
-  transform: translate(2px) scale(1, 1.2);
-}
-
-.profile-img:hover {
-  transform: scale(1.02);
-  transition: all 0.5s;
-}
-
-.my-work-links:hover,
-.skill-certificates-link:hover {
-  background-color: #c3cfcf;
-  color: #325656;
-  transition: all 0.7s;
-}
-
-.contact-email:hover {
-  font-weight: bold;
-  transition: all 0.5s;
-}
+/* ************************* */
+/* ***** GLOBAL CSS ***** */
+/* ************************* */
 
 h1,
 h2,
@@ -50,6 +25,10 @@ h5 {
   height: 1150px;
   position: relative;
 }
+
+/* ************************* */
+/* ***** LEFT SIDE BAR ***** */
+/* ************************* */
 
 .left-side {
   width: 35%;
@@ -75,7 +54,7 @@ h5 {
 
 .left-body {
   display: block;
-  margin: 140% 1% 0% 13%;
+  margin: 130% 1% 0% 13%;
 }
 
 .left-body h3 {
@@ -111,6 +90,10 @@ h5 {
   margin: 0% 5% -1% 0%;
   font-size: 120%;
 }
+
+/* ************************* */
+/* ***** RIGHT SIDE ******** */
+/* ************************* */
 
 .right-side {
   width: 65%;
@@ -391,12 +374,45 @@ h5 {
 }
 
 /* *********************** */
-/* Tooltip */
+/* Error Page */
 /* *********************** */
 
 .error-page {
   text-align: center;
   padding: 25px;
+}
+
+/* ************************* */
+/* ***** HOVER EFFECTS ***** */
+/* ************************* */
+
+.back-button:hover {
+  background-color: #f5e9e4;
+  color: #d1805b;
+  transition: all 0.6s;
+}
+
+.right-body h2:hover,
+.left-body h3:hover {
+  transition: all 0.5s;
+  transform: translate(2px) scale(1, 1.2);
+}
+
+.profile-img:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.my-work-links:hover,
+.skill-certificates-link:hover {
+  background-color: #c3cfcf;
+  color: #325656;
+  transition: all 0.7s;
+}
+
+.contact-email:hover {
+  font-weight: bold;
+  transition: all 0.5s;
 }
 
 /* ********************************************************** */

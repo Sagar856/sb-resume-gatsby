@@ -23,7 +23,7 @@ const skills = () => {
           Back
         </Link>
         <div className="page">
-          <h2>
+          <h2 className="skills-page-walkthrough">
             <GiGears className="icons" />
             Skills
           </h2>

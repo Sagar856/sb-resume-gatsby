@@ -17,55 +17,60 @@ const SkillsTour = () => {
   });
 
   if (typeof window !== "undefined") {
-    // Perform localStorage action
-    const item = localStorage.getItem("key");
-    if (item.getItem("seen_tour") == null) {
+
+  skillTour.addStep({
+    text: `Here is more information about my Skills set`,
+    attachTo: {
+      element: ".skills-page-walkthrough",
+      on: "top",
+    },
+    buttons: [
+      {
+        action() {
+          return this.cancel();
+        },
+        text: "Skip tour",
+        classes: "shepherd-button-cancel",
+      },
+      {
+        action() {
+          return this.next();
+        },
+        classes: "shepherd-button-next",
+        text: "&#10095;",
+      },
+    ],
+    id: "creating",
+  });
+
+  skillTour.addStep({
+    text: `Click here to see my skills Certificates`,
+    attachTo: {
+      element: ".skill-certificates-link",
+      on: "top",
+    },
+    buttons: [
+      {
+        action() {
+          return this.cancel();
+        },
+        text: "Ok",
+        classes: "shepherd-button-cancel",
+      },
+    ],
+    id: "creating",
+  });
+
+  // localStorage.setItem("seen_skillTour", "false");
+  if (
+    localStorage.getItem("seen_skillTour") == null ||
+    localStorage.getItem("seen_skillTour") == "false"
+    ) {
       skillTour.start();
-      item.setItem("seen_tour", "false");
+      localStorage.setItem("seen_skillTour", "true");
     }
+    // localStorage.setItem("seen_skillTour", "false");
 
-    skillTour.addStep({
-      text: `Here is more information about my Skills set`,
-      attachTo: {
-        element: ".page",
-        on: "top",
-      },
-      buttons: [
-        {
-          action() {
-            return this.cancel();
-          },
-          text: "Skip tour",
-          classes: "shepherd-button-cancel",
-        },
-        {
-          action() {
-            return this.next();
-          },
-          classes: "shepherd-button-next",
-          text: "&#10095;",
-        },
-      ],
-      id: "creating",
-    });
-
-    skillTour.addStep({
-      text: `Click here to see my skills Certificates`,
-      attachTo: {
-        element: ".skill-certificates-link",
-        on: "top",
-      },
-      buttons: [
-        {
-          action() {
-            return this.cancel();
-          },
-          text: "Ok",
-          classes: "shepherd-button-cancel",
-        },
-      ],
-      id: "creating",
-    });
   }
   // skillTour.start();
 };

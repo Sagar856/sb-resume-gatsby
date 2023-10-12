@@ -1,8 +1,12 @@
 .shepard-box {
-  background-color: #fff;
+  background-color: gainsboro;
   border-radius: 15px;
   color: #fff;
   text-align: center;
+}
+
+.shepherd-arrow:before { 
+  background-color: gainsboro;
 }
 
 .shepherd-text-style {
@@ -15,28 +19,27 @@
 
 .shepherd-button-cancel {
   color: #d1805b;
-  background-color: #f5e9e4;
+  background-color: gainsboro;
   /* margin-right: 30%; */
   padding: 2% 3%;
   margin: auto;
 }
 
-.shepherd-button-back:hover,
-.shepherd-button-next:hover {
-  background-color: #d1805b;
+.shepherd-button:not(:disabled):hover {
+  background: gray;
   color: #fff;
 }
 
 .shepherd-button-back {
   font-size: 120%;
-  background-color: #fff;
+  background-color: gainsboro;
   color: black;
   margin-right: 10%;
   padding: 2% 3%;
 }
 .shepherd-button-next {
   font-size: 120%;
-  background-color: #fff;
+  background-color: gainsboro;
   color: black;
   padding: 2% 3%;
 }
@@ -50,6 +53,10 @@
   .shepherd-text {
     font-size: 0.7rem;
     padding: 0.1rem;
+  }
+
+  .shepherd-arrow:before { 
+    background-color: gainsboro;
   }
 
   .shepherd-element, .shepherd-element *, .shepherd-element :after, .shepherd-element :before {
@@ -76,22 +83,16 @@
     margin: auto;
   }
 
-  .shepherd-button-back:hover,
-  .shepherd-button-next:hover {
-    background-color: #d1805b;
-    color: #fff;
-  }
-
   .shepherd-button-back {
     font-size: 120%;
-    background-color: #fff;
+    background-color: gainsboro;
     color: black;
     margin-right: 10%;
     padding: 2% 3%;
   }
   .shepherd-button-next {
     font-size: 120%;
-    background-color: #fff;
+    background-color: gainsboro;
     color: black;
     padding: 2% 3%;
   }

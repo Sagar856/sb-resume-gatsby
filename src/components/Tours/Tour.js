@@ -17,10 +17,6 @@ const Tour = () => {
   });
 
   if (typeof window !== "undefined") {
-    if (localStorage.getItem("seen_tour") == null) {
-      tour.start();
-      localStorage.setItem("seen_tour", "false");
-    }
 
     tour.addStep({
       text: `Click on <b>PROFILE</b> to know more about me`,
@@ -168,6 +164,14 @@ const Tour = () => {
       ],
       id: "creating",
     });
+
+    // localStorage.setItem("seen_tour", "false");
+    if (localStorage.getItem("seen_tour") == null || localStorage.getItem("seen_tour")== "false") {
+      tour.start();
+      localStorage.setItem("seen_tour", "true");
+    }
+    // localStorage.setItem("seen_tour", "false");
+    
   }
   // tour.start();
 };

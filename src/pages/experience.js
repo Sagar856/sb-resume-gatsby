@@ -18,7 +18,7 @@ const experience = () => {
           Back
         </Link>
         <div className="page">
-          <h2>
+          <h2 className="experience-page-walkthrough">
             <CgWorkAlt className="icons" />
             Experience
           </h2>
