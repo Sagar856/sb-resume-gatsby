@@ -29,9 +29,12 @@ const Layout = ({ children }) => {
       <div className="container">
         <section className="left-side">
           <div className="left-header">
-            <Link to="/gallery" className="link-style-depricate photo-walkthrough">
+            <Link
+              to="/gallery"
+              className="link-style-depricate photo-walkthrough"
+            >
               <StaticImage
-                src="../assets/images/IMG_5239-01.jpeg"
+                src="../assets/images/Profile-image.png"
                 alt="home page img"
                 className="profile-img"
                 placeholder="BLURRED"
@@ -50,11 +53,11 @@ const Layout = ({ children }) => {
               <Link to="/profile" className="link-style-depricate">
                 <h3 className="profile-heading">Profile</h3>
                 <p>
-                  Having an experience in <b>Cognizant technology solutions</b>{" "}
-                  as
-                  <b> ReactJS</b> Developer since Feb-2022. <br />
-                  Looking forward to explore new opportunities and experience
-                  different work cultures
+                  I'am a dedicated and highly skilled ReactJS developer with a
+                  passion for crafting dynamic and interactive web applications
+                  with a strong background in JavaScript, React and front-end
+                  development, I bring a wealth of experience in building
+                  responsive and user-friendly interfaces.
                 </p>
               </Link>
               <div className="contact-me-section">

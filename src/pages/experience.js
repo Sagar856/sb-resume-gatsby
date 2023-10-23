@@ -22,31 +22,36 @@ const experience = () => {
             <CgWorkAlt className="icons" />
             Experience
           </h2>
-          <div className="description-section">
-            <p>
-              Working as a <b>ReactJs Developer</b> in
-              <b> Cognizant Technology Solutions India Pvt Ltd.</b> Since
-              <b> Feb-2022</b>
-            </p>
-            <span>
-              Total experience : <b> 1.6 yrs</b>
+          <div className="description-section description-overflow">
+            <span className="total-exp-span">
+              Total experience : <b> 1.7 yrs</b>
             </span>
             <p>
-              &emsp;Initially joined Cognizant as a fresher and completed
-              cognizant mandatory training in Core-Java and Full-Stack
-              engineering for 5 months, then Completed ReactJs training as per
-              the business requirement and currently working as a ReactJS
-              developer.
+              As a <b>ReactJs Developer</b> at
+              <b> Cognizant Technology Solutions</b> I played a pivotal role in
+              developing and enhancing web applications, leveraging my expertise
+              in React and related technologies.
+            </p>
+            <p>My responsibilities included:</p>
+            <p>
+              &emsp;~Collaborating with a cross-functional team to design,
+              develop, and implement user-friendly, responsive web applications
+              <br />
+              &emsp;~Utilizing React and JavaScript libraries to build
+              interactive and dynamic front-end components
+              <br />
+              &emsp;~Conducting code reviews and performance optimizations to
+              maintain high-quality, scalable, and maintainable codebases
             </p>
             <p>
-              &emsp;Here I worked on many different technologies, Initially
-              Worked on Core-Java, MySQL in training. Then as in Project as per
-              project requirement grabbed ReactJs, HTML-5, CSS, Java Script,
-              GatsbyJs. And also worked on different case study projects.
+              &emsp;My experience as a ReactJS Developer at Cognizant technology
+              soluctions equipped me with the skills to develop efficient,
+              user-centric applications and deep understanding of front-end
+              technologies.
             </p>
             <div className="experience-my-work">
               <h3>
-                Here are some of my piece of work in ReactJS and GatsbyJS:
+                Here are my ReactJS and GatsbyJS projects:
               </h3>
               <ul>
                 <li>
@@ -65,7 +70,8 @@ const experience = () => {
                     className="my-work-links"
                     target="_blank"
                   >
-                    <IoArrowRedoCircle className="my-work-icons" /> Youtube Plus App
+                    <IoArrowRedoCircle className="my-work-icons" /> Youtube Plus
+                    App
                   </Link>
                 </li>
                 <li>
@@ -74,7 +80,8 @@ const experience = () => {
                     className="my-work-links"
                     target="_blank"
                   >
-                    <IoArrowRedoCircle className="my-work-icons" /> Omnifood HTML-CSS Desktop
+                    <IoArrowRedoCircle className="my-work-icons" /> Omnifood
+                    HTML-CSS Desktop
                   </Link>
                 </li>
                 <li>
@@ -83,7 +90,8 @@ const experience = () => {
                     className="my-work-links"
                     target="_blank"
                   >
-                    <IoArrowRedoCircle className="my-work-icons" /> Web Warrior Site
+                    <IoArrowRedoCircle className="my-work-icons" /> Web Warrior
+                    Site
                   </Link>
                 </li>
               </ul>

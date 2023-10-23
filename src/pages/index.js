@@ -36,7 +36,6 @@ import Tour from "../components/Tours/Tour";
 //   }, 7000);
 // }
 
-
 const index = () => {
   return (
     <Layout>
@@ -56,12 +55,14 @@ const index = () => {
           </span> */}
           <div className="description-section">
             <p>
-              Working as a <b>ReactJs Developer</b> in
-              <b> Cognizant Technology Solutions India Pvt Ltd.</b> Since
-              <b> Feb-2022</b>
+              As a <b>ReactJs Developer</b> at
+              <b> Cognizant Technology Solutions</b> I played a pivotal role in
+              developing and enhancing web applications, leveraging my expertise
+              in React and related technologies I worked on many responsive,
+              user-friendly web applications development process.
             </p>
             <span>
-              Total experience : <b> 1.6 yrs</b>
+              Total experience : <b> 1.7 yrs</b>
             </span>
           </div>
         </Link>

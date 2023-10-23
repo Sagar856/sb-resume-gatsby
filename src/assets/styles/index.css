@@ -22,7 +22,7 @@ h5 {
 
 .container {
   display: flex;
-  height: 1150px;
+  height: 1180px;
   position: relative;
 }
 
@@ -38,18 +38,22 @@ h5 {
   position: absolute;
   background-color: #6e9b9b;
   margin: 0 0.5% 0 8%;
-  height: 1150px;
+  height: 1180px;
   width: 27%;
 }
 
 .profile-img {
   position: absolute;
-  width: 84%;
-  height: 22.4%;
-  top: 7%;
-  left: 7%;
+  width: 81%;
+  height: 18.4%;
+  top: 6%;
+  left: 8%;
   border: solid 3px #fdfdfd;
   border-radius: 50%;
+}
+
+.profile-img img {
+  height: 116%;
 }
 
 .left-body {
@@ -101,7 +105,7 @@ h5 {
 
 .right-header {
   background-color: #e7c9bb;
-  height: 23%;
+  height: 19%;
   margin: 10% 0 0 -53.7%;
   display: block;
   width: 153.79%;
@@ -149,6 +153,16 @@ h5 {
   padding: 0% 0% 4% 7%;
   letter-spacing: 0.05rem;
   line-height: 135%;
+}
+
+.description-overflow {
+  overflow: scroll;
+  height: 710px;
+}
+
+.total-exp-span {
+  display: block;
+  margin-top:4% ;
 }
 
 .description-section p {
@@ -431,7 +445,7 @@ h5 {
   }
 
   .container {
-    height: 69em;
+    height: 73em;
   }
 
   .right-side {
@@ -442,7 +456,7 @@ h5 {
     margin: 0 0.5% 0 2%;
     width: 33%;
     border-radius: 11px 0px 0 10px;
-    height: 69em;
+    height: 73em;
   }
 
   .left-body {

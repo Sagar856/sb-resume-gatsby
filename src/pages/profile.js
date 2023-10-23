@@ -38,18 +38,16 @@ const profile = () => {
             <section>
               <h3>Description:</h3>
               <div className="profile-description">
-              <p>
-                  Having experience in <b>Cognizant technology solutions</b> as
-                  <b> ReactJS</b> Developer since Feb-2022.
-                  Looking forward to explore new opportunities and experience
-                  different work cultures
-                </p>
                 <p>
-                  Results-driven mechanical engineering student from Pune
-                  university, passionate about learning new technologies and
-                  upgrade skills to excellence. Excellent problem-solving and
-                  technical skills and ability to perform great in team. Seeking
-                  to work on the latest trends in the sector.
+                  My commitment to delivering clean and efficient code ensures
+                  that projects are not only aesthetically pleasing but also
+                  perform flawlessly. I thrive in collaborative environments and
+                  am adept at communicating technical concepts to non-technical
+                  stakeholders. As a problem solver, I am always eager to take
+                  on new challenges and stay up-to-date with the latest industry
+                  trends. My goal is to leverage my expertise to create
+                  impactful web solutions that provide an exceptional user
+                  experience.
                 </p>
               </div>
             </section>
