@@ -56,6 +56,10 @@ h5 {
   height: 116%;
 }
 
+.gatsby-image-wrapper {
+  
+}
+
 .left-body {
   display: block;
   margin: 125% 1% 0% 13%;
@@ -496,6 +500,7 @@ h5 {
   }
 
   .profile-img {
+    position: absolute;
     width: 86%;
     height: 18%;
     top: 4%;
@@ -503,10 +508,19 @@ h5 {
     border: solid 2px #fdfdfd;
   }
 
+  .gatsby-image-wrapper img .profile-img img {
+    object-fit: fill;
+}
+
   .description-section {
     letter-spacing: 0.03rem;
     padding: 0% 0% 6% 7%;
     line-height: 0.9rem;
+  }ˍ
+
+  .description-overflow {
+    overflow: scroll;
+    height: 710px;
   }
 
   .description-section ul {
