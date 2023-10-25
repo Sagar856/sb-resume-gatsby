@@ -56,10 +56,6 @@ h5 {
   height: 116%;
 }
 
-.gatsby-image-wrapper {
-  
-}
-
 .left-body {
   display: block;
   margin: 125% 1% 0% 13%;
@@ -166,7 +162,7 @@ h5 {
 
 .total-exp-span {
   display: block;
-  margin-top:4% ;
+  margin-top: 4%;
 }
 
 .description-section p {
@@ -502,7 +498,7 @@ h5 {
   .profile-img {
     position: absolute;
     width: 86%;
-    height: 18%;
+    height: 16%;
     top: 4%;
     left: 5%;
     border: solid 2px #fdfdfd;
@@ -510,17 +506,16 @@ h5 {
 
   .gatsby-image-wrapper img .profile-img img {
     object-fit: fill;
-}
+  }
 
   .description-section {
     letter-spacing: 0.03rem;
     padding: 0% 0% 6% 7%;
     line-height: 0.9rem;
-  }ˍ
+  }
 
   .description-overflow {
-    overflow: scroll;
-    height: 710px;
+    height: 465px;
   }
 
   .description-section ul {
@@ -534,7 +529,7 @@ h5 {
 
   .experience-my-work ul li {
     padding: 3%;
-}
+  }
 
   .skill-page-ul li {
     padding: 0% 0% 0% 20%;
@@ -546,10 +541,9 @@ h5 {
     height: 430px;
   }
 
-
   .certificate-data {
     overflow: scroll;
-    height: 400px;
+    height: 465px;
   }
 
   .tooltip .tooltiptext-exp,
@@ -560,7 +554,6 @@ h5 {
     padding: 2px 0;
     line-height: 100%;
   }
-
 
   .tooltip-icons {
     font-size: 12px;
